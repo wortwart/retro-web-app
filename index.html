@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+  <HEAD>
+    <TITLE>GeoCT</TITLE>
+    <meta charset="UTF-8">
+    <SCRIPT SRC="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></SCRIPT>
+    <SCRIPT TYPE="module">
+      import 'retro-elements/retro-basefont.js';
+      import 'retro-elements/retro-bgsound.js';
+      import 'retro-elements/retro-blink.js';
+      import 'retro-elements/retro-counter.js';
+      import 'retro-elements/retro-gif.js';
+      import 'retro-elements/retro-spacer.js';
+    </SCRIPT>
+    <STYLE TYPE="text/css">
+    body {cursor: url(media/aqua.ani), url(media/bubbles.cur), auto;}
+    ::-webkit-scrollbar {
+      background-color: pink;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: palevioletred;
+    }
+    ::-webkit-scrollbar-button {
+      background-color: hotpink;
+      border-radius: 35%;
+    }
+    </STYLE>
+  </HEAD>
+  <BODY BACKGROUND="media/tweed.jpg">
+    <RETRO-BASEFONT FACE="Comic Sans MS"></RETRO-BASEFONT>
+    <CENTER>
+      <TABLE WIDTH=800 CELLSPACING=40>
+        <TR>
+          <TD COLSPAN=2>
+            <FONT COLOR=RED SIZE=24pt><MARQUEE><RETRO-BLINK>Ja, ich kann blinken!</RETRO-BLINK></MARQUEE></FONT>
+          </TD>
+        </TR>
+        <TR>
+          <TD>
+            <RETRO-GIF ALT="c't" ANIMATION=JUMP SRC="media/ctlogo.gif"></RETRO-GIF>
+          </TD>
+          <TD>
+            <RETRO-SPACER WIDTH=50 TYPE=block HEIGHT=100></RETRO-SPACER>
+            <BIG><U><B>HALLO FANS, FREAKS UND FREUNDE !</B></U>
+            <P>Hier ist meine neue Homepage ! <BR> Schaut euch ein bi&szlig;chen um hier, ich hoffe ihr habt Spa&szlig; !
+          </TD>
+        </TR>
+        <TR>
+          <TD COLSPAN=2>
+            <RETRO-SPACER TYPE=block HEIGHT=100></RETRO-SPACER>
+            <CENTER>
+              <FONT COLOR=BLUE>
+              <RETRO-BLINK>Sie sind Besucher Nummer:</RETRO-BLINK><P>
+              <RETRO-COUNTER></RETRO-COUNTER>
+            </P>
+            <RETRO-SPACER TYPE=block HEIGHT=50></RETRO-SPACER>
+          </TD>
+        <TR>
+          <TD COLSPAN=2>
+            <CENTER>
+            <RETRO-GIF ALT="Internet Exploder" ANIMATION=PULSATE SRC="media/ie.gif"></RETRO-GIF>
+            <RETRO-SPACER SIZE=60></RETRO-SPACER>
+            <RETRO-GIF ALT="Netscape" ANIMATION=PULSATE SRC="media/netscape.gif"></RETRO-GIF>
+            <P>
+              Optimiert für: Internet Explorer, Netscape Firefox und das andere Zeug
+          </TD>
+        </TR>
+      </TABLE>
+    </CENTER>
+    <RETRO-BGSOUND SRC="media/donau.mid"></RETRO-BGSOUND>
+    <SMALL>
+      Musik: <A HREF="http://www.mutopiaproject.org/cgibin/make-table.cgi?searchingfor=blue+danube">http://www.mutopiaproject.org/cgibin/make-table.cgi?searchingfor=blue+danube</A><BR>
+      Hintergrund: <A HREF="http://bgrepeat.com/bg_128-163">http://bgrepeat.com/bg_128-163</A><BR>
+      Cursor-Grafiken: <A HREF="http://www.rw-designer.com/cursor-detail/145">http://www.rw-designer.com/cursor-detail/145</A> und <A HREF="http://www.rw-designer.com/cursor-detail/69807">http://www.rw-designer.com/cursor-detail/69807</A>
+  </BODY>
+</HTML>

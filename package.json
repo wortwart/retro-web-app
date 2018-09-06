@@ -1,0 +1,12 @@
+{
+  "name": "retro-web-app",
+  "description": "Displays some horrible 90s-style HTML, helped by Polymer custom elements",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0",
+    "retro-elements": "^1.0.0"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "wct-browser-legacy": "^1.0.0"
+  }
+}

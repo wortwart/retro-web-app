@@ -1,0 +1,7 @@
+{
+  "name": "retro-web-app",
+  "short_name": "retro-web-app",
+  "description": "Displays some horrible 90s-style HTML, helped by Polymer custom elements",
+  "start_url": "/",
+  "display": "standalone"
+}
